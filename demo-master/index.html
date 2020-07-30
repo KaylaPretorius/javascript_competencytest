@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="main.css">
+      <script src="main.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<!-- domain & brand name -->
+    <title>Regal Vino</title>
+ </head>
+
+<header>
+  <img src="stock\header-image.jpg" width="100%">
+</header>
+
+  <body>
+
+    <section>
+      <p class="intro-text">Wine has a lot to do with style. Before each harvest, winemakers have to decide which direction they are going to take in order to produce their preferred drink.
+         Let us make it easier for you to choose the wine your pallette prefers.</p>
+    </section>
+
+<!-- the user will select an option of their choice from this list -->
+<p class="instruction">Select a wine type from the list below</p>
+
+<!-- An onchange event/function will occur when the value of the element has is changed -->
+<select id="type" onchange="myFunction()">
+  <option value="Light-bodied Red Wines">Light-bodied Red Wines</option>
+  <option value="Light-bodied White Wines">Light-bodied White Wines</option>
+  <option value="Full-bodied Red Wines">Full-bodied Red Wines</option>
+  <option value="Full-bodied White Wines">Full-bodied White Wines</option>
+  <option value="Sparkling Wines">Sparkling Wines</option>
+  <option value="Aromatic White Wines">Aromatic White Wines</option>
+  <option value="Fortified Wines">Fortified Wines</option>
+</select>
+
+<p id="test"> You selected: </p>
+
+  </body>
+</html>

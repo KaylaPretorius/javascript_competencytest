@@ -1,0 +1,28 @@
+ body {
+margin: 8px;
+}
+
+ .intro-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size:16px;
+    text-align: justify;
+ }
+
+.instruction {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+#test {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+#type {
+font-size: 14px;
+font-family: 'Montserrat', sans-serif;
+padding: 10px 24px 10px 14px;
+background: #fffff0;
+border-radius: 6px;
+position: relative;
+}
